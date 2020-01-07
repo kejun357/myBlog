@@ -1,0 +1,8 @@
+html,body,p,h1,h2,h3,h4,h5,h6,div,a,span,img,ol,ul,li,dl,dt,dd{ margin:0; padding:0;}
+li{list-style: none;}
+
+body {
+    background: #e7e4d5;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.clear:after {content:''; overflow: hidden; clear: both; display: block; height: 0;}
