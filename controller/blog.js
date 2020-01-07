@@ -38,6 +38,26 @@ const getList = (name) => {
     }]
 }
 
+const detail = () => {
+    return [
+        {
+            id:1,
+            title:'标题dd',
+            content:'内容1',
+            createTime: 1546610491112,
+            author:'zhangsan'
+        },
+        {
+            id:2,
+            title:'标题d',
+            content:'内容dd',
+            createTime: 1546610491112,
+            author:'lisi'
+        }
+    ]
+}
+
 module.exports = {
-    getList
+    getList,
+    detail
 }
